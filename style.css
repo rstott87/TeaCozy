@@ -81,34 +81,54 @@ div img {
     flex-wrap: wrap;
 }
 
+/** LOCATION SECTION **/
+
 /** background image **/
 
-.locations {
+.containerForLocations {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+
+/**parent container of location title. Needed to establish it as "relative" position**/
+.locations {
+    position: relative;
+}
+
+/** This holds only the word 'Location' **/ 
 .locationTitle {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     width: 100%;
 }
 
+.locationTitle {
+    position: absolute;
+    top: 25px
+}
+
+
+/** These are the divs in black boxes with location's information **/
 .containerForLocations .locationBox {
     display: flex;
     justify-content: space-evenly;
     width: 300px;
-    height: 310px ;
+    height: 300px ;
     align-items: center;
     background-color: black;
 }
 
+/** this holds the actual text within the black location boxes**/
 .containerForLocations div p {
     line-height: 60px;
 }
+
+
+
+/**FOOTER SECTION **/
 
 .contact {
     height: 200px;
