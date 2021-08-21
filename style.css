@@ -1,0 +1,119 @@
+* {
+/** border: 1px solid red; **/
+}
+
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    text-decoration: underline;
+}
+
+.company-name {
+    font-size: 60px;
+    justify-content: flex-start;
+    text-align: start;
+    width: 70%;
+}
+
+.imageContainer {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    border: 10px solid black;
+    
+}
+
+
+.middleTextOverImage {
+    width: 100%;
+    background-color: black;
+}
+
+.menuImages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+}
+
+.menuImages div {
+    height: 200px;
+    width: 300px;
+    margin: 55px;
+
+
+}
+
+div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.menuImages p {
+    margin-top: 10px;
+}
+
+.containerForLocations {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/** background image **/
+
+.locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.locationTitle {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.containerForLocations .locationBox {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 310px ;
+    align-items: center;
+    background-color: black;
+}
+
+.containerForLocations div p {
+    line-height: 60px;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer {
+    text-align: start;
+}
